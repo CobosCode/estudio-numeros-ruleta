@@ -31,7 +31,7 @@ for j in range(1):
             # Agregar salto de línea y etiqueta de la nueva secuencia
             f.write(f"\nsecuencia{num_secuencias}: ")
             # Bucle de 1000 ejecuciones
-            for i in range(10000000):
+            for i in range(100):
                 # Generar número aleatorio entre 0 y 36
                 num = random.randint(0, 36)
                 # Escribir número en el archivo separado por comas
